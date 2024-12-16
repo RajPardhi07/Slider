@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: neu;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    overflow: hidden;
+}
+
+#page1 {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    position: relative;
+}
+
+#page1 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#elem1 {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgb(161, 68, 68);
+
+}
+
+#elem1 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#elem2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(97, 85, 157);
+    opacity: 0;
+    top: 0%;
+    position: absolute;
+
+}
+
+#elem2 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#elem3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(97, 85, 157);
+    opacity: 0;
+    top: 0%;
+    position: absolute;
+
+}
+
+
+#cursor {
+    width: 0px;
+    height: 0px;
+    background-color:rgb(227, 227, 128);
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all ease 0.1s;
+    z-index: 9999999999999999999999999999999;
+}
+
+
+
+#elem3 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#elem4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(97, 85, 157);
+    opacity: 0;
+    top: 0%;
+    position: absolute;
+
+}
+
+#elem4 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#elem5 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(97, 85, 157);
+    opacity: 0;
+    top: 0%;
+    position: absolute;
+
+}
+
+#elem5 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#elem6 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(97, 85, 157);
+    opacity: 0;
+    top: 0%;
+    position: absolute;
+
+}
+
+#elem6 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+#pack {
+    width: 40%;
+    height: 60vh;
+    position: absolute;
+    top: 35%;
+    /* background-color: red; */
+    left: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#pack h1 {
+    transition: font-size 0.3s ease;
+    /* Smooth transition */
+
+}
+
+.name1 {
+    font-size: 3vw;
+    position: absolute;
+    /* top: 20%; */
+    right: 8%;
+    z-index: 5;
+    font-weight: 600;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.name2 {
+    font-size: 3vw;
+    position: absolute;
+    /* top:15%; */
+    z-index: 5;
+
+    right: 8%;
+    font-weight: 600;
+    color: white;
+    font-family: sans-serif;
+
+
+}
+
+.name3 {
+    font-size: 3vw;
+    position: absolute;
+    /* top:20%; */
+    z-index: 5;
+
+    right: 5%;
+    font-weight: 600;
+    color: white;
+    font-family: sans-serif;
+}
+
+.name4 {
+    font-size: 3vw;
+    position: absolute;
+    /* top: 15%; */
+    z-index: 5;
+
+    right: 5%;
+    font-weight: 600;
+    color: white;
+    font-family: sans-serif;
+
+}
+.name5 {
+    font-size: 3vw;
+    position: absolute;
+    /* top: 15%; */
+    z-index: 5;
+
+    right: 5%;
+    font-weight: 600;
+    color: white;
+    font-family: sans-serif;
+
+}
+.name6 {
+    font-size: 3vw;
+    position: absolute;
+    /* top: 15%; */
+    z-index: 5;
+
+    right: 5%;
+    font-weight: 600;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+
+
+#line6{
+    font-family: neu;
+    color: white;
+    width: 117%;
+    position: absolute;
+    height: 10vh;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    bottom: 84%; 
+}
+#line5{
+    font-family: neu;
+    color: white;
+    width: 110%;
+    position: absolute;
+    height: 10vh;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    bottom: 67%; 
+}
+
+#line1 {
+    font-family: neu;
+    color: white;
+    width: 100%;
+    position: absolute;
+    height: 10vh;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    bottom: 50%;
+
+}
+
+#line2 {
+    color: white;
+    position: absolute;
+    width: 80%;
+right: 0%;
+    bottom: 34%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#line3 {
+    font-family: neu;
+    color: white;
+    width: 80%;
+    position: absolute;
+    height: 10vh;
+    right: 0%;
+    bottom: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#line4 {
+    font-family: neu;
+    color: white;
+    position: absolute;
+    width: 100%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
